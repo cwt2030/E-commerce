@@ -1,28 +1,108 @@
 .container{
     width: 90%;
-    margin:auto;
-    
+    margin:0 auto; 
+
 }
 #subheader{
     width: 100%;
     height: 30px;
     background: #ee55ee;
-     
-    
-
+    margin-top: -15px;
 }
 #subheader p{
     float:left;
     margin-top: 7px;
-    color: #1b0d1b;
+    color: #612148;
+    
 
 }
 
-#subheader a {
+#subheader a{
 
     float: right;
     line-height: 30px;
-    color:#ffffff;
+    color:#000000;
     text-decoration:none;
-    margin-left: 50px ;
+    margin-left: 30px ;
 }
+#main-headre{
+    width:100%;
+    height:100px;
+    background: #080;
+    margin-top:-15px;
+    float: left;
+
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left;
+}
+#ist{
+color: #000000;
+font-size: 45px;
+font-weight: bold;
+margin-left: 15px;
+font-family: cursive;
+
+}
+#iist{
+
+color:#612148;
+font-size:35px;
+font-weight: bold;
+font-family: cursive;
+}
+#search{
+    width: 650px;
+    float: left;
+    margin-left:50px;
+    padding: 20px;
+    position:relative;
+
+}
+.search-area{
+    width:650px;
+    height:50px;
+    background: white;
+    float: left;
+    border-radius:10px;
+    padding-left: 15px;
+    border:none;
+    float:left;
+ 
+}
+.search-btn{
+    width:100px;
+    height:52px;
+    border-radius:10px;
+    border:none;
+    color:rgb(15, 14, 14);
+    background:red;
+    margin-left: -100px;
+    position:absolute;
+
+}
+#user-menu{
+    width: 300px;
+    margin-top:20px;
+    float:right;
+ 
+    }
+#user-menu li{
+    float:left;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    border-left: 1px solid black;
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color: white;
+    text-decoration: none;
+}
+
